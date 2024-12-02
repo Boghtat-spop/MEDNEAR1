@@ -1,0 +1,117 @@
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 650px; 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+
+
+
+.search-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
+  padding: 20px;
+  z-index: 1;
+}
+
+
+
+
+.search-bar .container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+
+
+
+.search-bar .form-control {
+  width: 60%; 
+}
+
+
+
+
+.search-bar .btn {
+  margin-top: 10px;
+}
+
+
+
+
+.search-bar h1 {
+  color: #007bff; 
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #1e90ff, #00c6ff); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffeb3b !important;
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  border: 2px solid #fff;
+  color: #fff;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background: #fff;
+  color: #1e90ff;
+}
+
+
+.body-content {
+  margin-top: 60px;
+}
+
+.mehdi {
+  background-color: #007bff;
+}
+
+.body {
+  background-color: #007bff;
+}

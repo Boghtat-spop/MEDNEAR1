@@ -1,0 +1,188 @@
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 220px; 
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.card:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+.card-img-top {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+
+
+
+.card:hover .card-img-top {
+    transform: scale(1.1); 
+}
+
+
+
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.card-body:hover {
+    background-color: #f7f7f7; 
+}
+
+
+
+.card-title {
+    font-size: 1.2rem; 
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+
+.card-body:hover .card-title {
+    color: #0056b3; 
+}
+
+
+
+.btn-primary {
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.bn{
+    color: #f7f7f7;
+}
+.sn{
+    color: #f7f7f7;
+}
+.text{
+    color: #f7f7f7;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    z-index: 1000; 
+    overflow: hidden; 
+}
+
+
+.modal-content {
+    background: #fbfbfb; 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 60%; 
+    max-height: 60%;
+    overflow-y: auto; 
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    
+    color: #0d86f7;
+    outline: none;
+  }
+  
+ 
+
+
+
+.btn-follow {
+    background-color: #1a4af7;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-follow:hover {
+    background-color: #1a29f5;
+  }
+  
+  #hello{
+    color: #57ceef;
+    text-align: center;
+  }
+  .doctor-name{
+    color:#57ceef ;
+  }
+
+
+
+
+  
