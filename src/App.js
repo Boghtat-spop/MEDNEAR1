@@ -1,12 +1,12 @@
 import React from "react";
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+=======
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+>>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import SpecialtyCards from "./components/SpecialtyCards";
-import FeedbackSection from "./components/FeedbackSection";
-import MapPreview from "./components/MapPreview";
-import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
+<<<<<<< HEAD
 import TenCardsPage from "./components/TenCardsPage";
 import "./styles/cards.css";
 import "./styles/main.css";
@@ -46,6 +46,31 @@ const Home = () => {
       <Footer />
     </div>
   );
+=======
+import HomePage from "./Page/HomePage";
+import Login from "./Page/Login";
+import "./styles/main.css";
+
+const App = () => {
+    
+    const location = useLocation();
+    
+    
+    const isLoginPage = location.pathname === "/login";
+
+    return (
+        <div>
+            
+            {!isLoginPage && <Header />}
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
+            
+            {!isLoginPage && <Footer />}
+        </div>
+    );
+>>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
 };
 
 export default App;
