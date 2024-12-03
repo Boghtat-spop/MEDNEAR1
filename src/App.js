@@ -1,76 +1,61 @@
 import React from "react";
-<<<<<<< HEAD
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-=======
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
->>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-<<<<<<< HEAD
 import TenCardsPage from "./components/TenCardsPage";
-import "./styles/cards.css";
-import "./styles/main.css";
+import Login from "./components/Login";
+import SearchBar from "./components/SearchBar"; // Assuming you have SearchBar component
+import SpecialtyCards from "./components/SpecialtyCards"; // Assuming you have SpecialtyCards component
+import FeedbackSection from "./components/FeedbackSection"; // Assuming you have FeedbackSection component
+import MapPreview from "./components/MapPreview"; // Assuming you have MapPreview component
+import AboutUs from "./components/AboutUs"; // Assuming you have AboutUs component
 import myVideo from './myVideo.mp4'; 
 
+import "./styles/cards.css";
+import "./styles/main.css";
+
 function App() {
+  const location = useLocation();
+  
+  const isLoginPage = location.pathname === "/login";
+
   return (
-    <Router>
+    <div>
+      {/* Render Header only if not on the login page */}
+      {!isLoginPage && <Header />}
+      
       <Routes>
-        
         <Route path="/" element={<Home />} />
         <Route path="/ten-cards" element={<TenCardsPage />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
-    </Router>
+      
+      {/* Render Footer only if not on the login page */}
+      {!isLoginPage && <Footer />}
+    </div>
   );
 }
 
 const Home = () => {
   return (
     <div>  
-      <Header />
-      
       <div className="mehdi">
-       
         <video width="100%" autoPlay muted loop>
           <source src={myVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         
-       
+        {/* Make sure SearchBar is available in your project */}
         <SearchBar />
       </div>
+      
+      {/* Make sure SpecialtyCards, FeedbackSection, MapPreview, and AboutUs are available */}
       <SpecialtyCards />
       <FeedbackSection />
       <MapPreview />
       <AboutUs />
-      <Footer />
     </div>
   );
-=======
-import HomePage from "./Page/HomePage";
-import Login from "./Page/Login";
-import "./styles/main.css";
-
-const App = () => {
-    
-    const location = useLocation();
-    
-    
-    const isLoginPage = location.pathname === "/login";
-
-    return (
-        <div>
-            
-            {!isLoginPage && <Header />}
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/login" element={<Login />} />
-            </Routes>
-            
-            {!isLoginPage && <Footer />}
-        </div>
-    );
->>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
-};
+}
 
 export default App;

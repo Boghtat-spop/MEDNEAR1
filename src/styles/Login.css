@@ -1,0 +1,139 @@
+/* General Styling for the Page */
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+    padding: 0 10px;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-box input {
+    border: none;
+    flex-grow: 1;
+    padding: 8px;
+    outline: none;
+}
+
+.input-box .icon {
+    color: #888;
+    margin-left: 10px;
+}
+
+.cheklink {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cheklink a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.submit button, .rest button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit button:hover, .rest button:hover {
+    background-color: #0056b3;
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the password recovery form */
+.form-emapass {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-emapass input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-emapass button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-emapass button:hover {
+    background-color: #218838;
+}
+
+.form-emapass a {
+    color: #007bff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formpar {
+    display: flex;
+    flex-direction: column;
+}
+
+.formpar input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rest button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}

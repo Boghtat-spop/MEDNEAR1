@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "ace2",
+      "firstName": "mehdi",
+      "lastName": "azou",
+      "email": "azou@gmail.com",
+      "telephone": "0638208181",
+      "birthday": "2004-06-03"
+    },
+    {
+      "id": "1a37",
+      "firstName": "zakaria",
+      "lastName": "ferouhi",
+      "email": "zaki@gmail.com",
+      "telephone": "0638208181",
+      "birthday": "2004-06-03"
+    },
+    {
+      "id": "405c",
+      "firstName": "abdelali",
+      "lastName": "baali",
+      "email": "baali@gmail.com",
+      "telephone": "06326329",
+      "birthday": "2006-05-06",
+      "password": "123456"
+    },
+    {
+      "id": "72d3",
+      "firstName": "jjj",
+      "lastName": "rrr",
+      "email": "rrrrr@gmail.com",
+      "telephone": "06792632",
+      "birthday": "2010-06-03",
+      "password": "1234567"
+    },
+    {
+      "id": "72d3",
+      "firstName": "mehdi",
+      "lastName": "azou",
+      "email": "azou@gmail.com",
+      "telephone": "06803723",
+      "birthday": "2003-06-03",
+      "password": "12345a"
+    }
+  ]
+}

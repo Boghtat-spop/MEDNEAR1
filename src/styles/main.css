@@ -1,24 +1,14 @@
-<<<<<<< HEAD
+/* Hero Image */
 .hero-image {
   position: relative;
   width: 100%;
-  height: 650px; 
+  height: 650px;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
-=======
-/*.hero-image {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    background-position: center;*/
->>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
 }
 
-
-
-
+/* Search Bar */
 .search-bar {
   position: absolute;
   top: 0;
@@ -33,45 +23,32 @@
   z-index: 1;
 }
 
-
-
-
 .search-bar .container {
   position: relative;
   z-index: 2;
   text-align: center;
 }
 
-
-
-
 .search-bar .form-control {
-  width: 60%; 
+  width: 60%;
 }
-
-
-
 
 .search-bar .btn {
   margin-top: 10px;
 }
 
-
-
-
 .search-bar h1 {
-  color: #007bff; 
+  color: #007bff;
 }
 
-
-
+/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(90deg, #1e90ff, #00c6ff); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background: linear-gradient(90deg, #1e90ff, #00c6ff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   z-index: 1000;
 }
@@ -112,98 +89,37 @@
   color: #1e90ff;
 }
 
-
+/* Body Content */
 .body-content {
   margin-top: 60px;
 }
 
-<<<<<<< HEAD
+/* Specific Background Section */
 .mehdi {
   background-color: #007bff;
 }
 
-=======
-
+/* Navbar Links */
 .navbar a {
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
+  color: #000;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .navbar a:hover {
-    background-color: #f0eeee;
-    color: black;
+  background-color: #f0eeee;
+  color: black;
 }
-.mehdi{
 
-    background-color: #007bff;
-}
->>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5
+/* Body Background */
 .body {
   background-color: #007bff;
 }
-<<<<<<< HEAD
-=======
-/*.hero-image {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
 
-.search-bar {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    z-index: 2;
-    width: 100%; 
-    max-width: 400px; 
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.search-bar .container {
-    position: relative;
-    z-index: 2;
-    text-align: center; 
-    width: 100%;
-    overflow: hidden; 
-}
-
-.search-bar .form-control {
-    width: 100%;
-    max-width: 300px;
-    min-width: 250px;
-    height: 40px;
-}
-
-.search-bar .btn {
-    margin-top: 10px;
-}
-
-.search-bar h1 {
-    color: #007bff;
-    font-size: 2rem;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-}
-
-.search-bar .btn-primary {
-    transform: translateY(-7px);
-}*/
+/* About Section Images */
 #about img {
-    width: 600px;      
-    height: 410px;     
-    object-fit: cover; 
+  width: 600px;
+  height: 410px;
+  object-fit: cover;
 }
->>>>>>> cccd60c8a63c4487039c9742b9c3192da019b3f5

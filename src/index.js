@@ -4,18 +4,12 @@ import ReactDOM from "react-dom";
 import App from "./App"; 
 import { BrowserRouter as Router } from "react-router-dom";
 
-
-
-const AppWrapper = () => (
-  <Router>
-    <App />
-  </Router>
-);
-
-
+// تطبيق React مع Router في الأعلى
 ReactDOM.render(
   <React.StrictMode>
-    <AppWrapper />
+    <Router> 
+      <App />
+    </Router>
   </React.StrictMode>,
-  document.getElementById("root") 
+  document.getElementById("root")
 );
