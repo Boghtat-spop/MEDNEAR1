@@ -1,98 +1,130 @@
-🍏 MEDNEAR: Système de Commande Médicale en Ligne 🏥
+Bien sûr ! Voici la version mise à jour du projet **MEDNEAR**, incluant le lien vers le **JIRA** pour le suivi du projet :
+
+---
+
+## 🍏 **MEDNEAR: Système de Commande Médicale en Ligne** 🏥
+
 Un projet full-stack pour la gestion des services médicaux en ligne, permettant aux utilisateurs de réserver des consultations, acheter des médicaments, et aux administrateurs de gérer les utilisateurs et les services.
 
-🌟 Fonctionnalités
-Fonctionnalités pour les utilisateurs (Patients) 👩‍⚕️👨‍⚕️
-🔑 Inscription et authentification utilisateur
+---
 
-Créez un compte, connectez-vous et gérez vos informations personnelles.
-🍽️ Consultation des services médicaux
+### 🌟 **Fonctionnalités**
 
-Parcourez les services médicaux disponibles (consultations, tests, médicaments, etc.).
-🔍 Recherche de services médicaux
+#### **Fonctionnalités pour les utilisateurs (Patients)** 👩‍⚕️👨‍⚕️
 
-Recherche par spécialité, médecin, ou type de service (ex. consultations en ligne, services de laboratoire).
-🛒 Gestion du panier
+- **🔑 Inscription et authentification utilisateur**  
+  - Créez un compte, connectez-vous et gérez vos informations personnelles.
 
-Ajoutez des médicaments à votre panier ou réservez des consultations.
-🚚 Suivi des commandes et réservations
+- **🍽️ Consultation des services médicaux**  
+  - Parcourez les services médicaux disponibles (consultations, tests, médicaments, etc.).
 
-Suivez vos commandes de médicaments et l’état de vos rendez-vous médicaux.
-👤 Gestion du profil utilisateur
+- **🔍 Recherche de services médicaux**  
+  - Recherche par spécialité, médecin, ou type de service (ex. consultations en ligne, services de laboratoire).
 
-Mettez à jour vos informations personnelles et antécédents médicaux.
-🏠 Gestion des adresses de livraison
+- **🛒 Gestion du panier**  
+  - Ajoutez des médicaments à votre panier ou réservez des consultations.
 
-Ajoutez ou modifiez vos adresses pour la livraison de médicaments.
-📜 Historique des commandes et consultations
+- **🚚 Suivi des commandes et réservations**  
+  - Suivez vos commandes de médicaments et l’état de vos rendez-vous médicaux.
 
-Visualisez l’historique de vos consultations passées et de vos achats de médicaments.
-Fonctionnalités pour l'Admin (Professionnels de santé) 🩺👨‍⚕️
-📊 Tableau de bord sécurisé pour les administrateurs
+- **👤 Gestion du profil utilisateur**  
+  - Mettez à jour vos informations personnelles et antécédents médicaux.
 
-Accédez au tableau de bord pour suivre les commandes, utilisateurs, et services médicaux.
-📝 Gestion des services médicaux
+- **🏠 Gestion des adresses de livraison**  
+  - Ajoutez ou modifiez vos adresses pour la livraison de médicaments.
 
-Ajoutez, modifiez ou supprimez des services médicaux (consultations, tests, examens, etc.).
-📦 Gestion des commandes
+- **📜 Historique des commandes et consultations**  
+  - Visualisez l’historique de vos consultations passées et de vos achats de médicaments.
 
-Gérez les commandes de médicaments et les réservations de consultations.
-👥 Gestion des utilisateurs
+---
 
-Ajoutez, modifiez ou supprimez des comptes utilisateurs (patients, médecins, pharmaciens).
-📈 Suivi des ventes et des commandes
+#### **Fonctionnalités pour l'Admin (Professionnels de santé)** 🩺👨‍⚕️
 
-Suivez les commandes de médicaments et les consultations médicales pour obtenir des statistiques.
-📩 Système de messagerie
+- **📊 Tableau de bord sécurisé pour les administrateurs**  
+  - Accédez au tableau de bord pour suivre les commandes, utilisateurs, et services médicaux.
 
-Communiquez avec les patients concernant leurs commandes et rendez-vous médicaux.
-🛠️ Technologies utilisées
-Frontend: React, Bootstrap 5, CSS3, JavaScript (Utilisation de composants React pour l'interface)
-Backend: JSON Server (utilisé pour simuler une API RESTful)
-Base de données: JSON (Stockage des données au format JSON)
-Autres: Fetch API pour l’interaction avec le backend
-📋 Prérequis
-Node.js >= 14 (ou supérieur)
-JSON Server
-Navigateur web moderne
-⚙️ Installation
-Clonez le repository :
+- **📝 Gestion des services médicaux**  
+  - Ajoutez, modifiez ou supprimez des services médicaux (consultations, tests, examens, etc.).
 
-bash
-Copier le code
-git clone https://github.com/Boghtat-spop/MEDNEAR1.git
-Installez les dépendances :
+- **📦 Gestion des commandes**  
+  - Gérez les commandes de médicaments et les réservations de consultations.
 
-bash
-Copier le code
-cd mednear
-npm install
-Lancez le serveur JSON :
+- **👥 Gestion des utilisateurs**  
+  - Ajoutez, modifiez ou supprimez des comptes utilisateurs (patients, médecins, pharmaciens).
 
-bash
-Copier le code
-npm run server
-Cela démarre le JSON Server sur le port 3000 par défaut.
+- **📈 Suivi des ventes et des commandes**  
+  - Suivez les commandes de médicaments et les consultations médicales pour obtenir des statistiques.
 
-Démarrez votre application :
+- **📩 Système de messagerie**  
+  - Communiquez avec les patients concernant leurs commandes et rendez-vous médicaux.
 
-Lancez l’application React avec :
-bash
-Copier le code
-npm start
-Accédez à l’application via :
-Panneau utilisateur : http://localhost:3000
-Panneau admin : http://localhost:3000/admin
-👤 Identifiants Admin par défaut
-Nom d'utilisateur: admin
-Mot de passe: admin123
-🔒 Sécurité
-🔐 Hachage de mot de passe : Bien que JSON Server ne gère pas directement le hachage des mots de passe, il est possible de l'ajouter côté frontend si nécessaire.
-💻 Validation et assainissement des entrées : Assurez-vous de valider les données avant envoi vers le serveur (ex. vérifier les emails, éviter les injections malveillantes).
-🛡️ Contrôle d'accès pour le panneau admin : Seuls les utilisateurs authentifiés peuvent accéder au panneau administrateur.
-🗂️ Structure du projet
-php
-Copier le code
+---
+
+### 🛠️ **Technologies utilisées**
+
+- **Frontend**: React, **Bootstrap 5**, CSS3, JavaScript (Utilisation de composants React pour l'interface)
+- **Backend**: **JSON Server** (utilisé pour simuler une API RESTful)
+- **Base de données**: JSON (Stockage des données au format JSON)
+- **Autres**: Fetch API pour l’interaction avec le backend
+
+---
+
+### 📋 **Prérequis**
+
+- **Node.js** >= 14 (ou supérieur)
+- **JSON Server**
+- Navigateur web moderne
+
+---
+
+### ⚙️ **Installation**
+
+1. **Clonez le repository** :
+   ```bash
+   git clone https://github.com/Boghtat-spop/MEDNEAR1.git
+   ```
+
+2. **Installez les dépendances** :
+   ```bash
+   cd mednear
+   npm install
+   ```
+
+3. **Lancez le serveur JSON** :
+   ```bash
+   npm run server
+   ```
+   Cela démarre le **JSON Server** sur le port 3000 par défaut.
+
+4. **Démarrez votre application** :
+   - Lancez l’application React avec :
+     ```bash
+     npm start
+     ```
+   - Accédez à l’application via :  
+     **Panneau utilisateur** : `http://localhost:3000`  
+     **Panneau admin** : `http://localhost:3000/admin`
+
+---
+
+### 👤 **Identifiants Admin par défaut**
+
+- **Nom d'utilisateur**: `admin`
+- **Mot de passe**: `admin123`
+
+---
+
+### 🔒 **Sécurité**
+
+- **🔐 Hachage de mot de passe** : Bien que JSON Server ne gère pas directement le hachage des mots de passe, il est possible de l'ajouter côté frontend si nécessaire.
+- **💻 Validation et assainissement des entrées** : Assurez-vous de valider les données avant envoi vers le serveur (ex. vérifier les emails, éviter les injections malveillantes).
+- **🛡️ Contrôle d'accès pour le panneau admin** : Seuls les utilisateurs authentifiés peuvent accéder au panneau administrateur.
+
+---
+
+### 🗂️ **Structure du projet**
+
+```
 mednear/
 ├── public/                      # Fichiers publics comme index.html
 │   ├── index.html               # Page d'accueil principale
@@ -120,35 +152,64 @@ mednear/
 ├── .gitignore                   # Fichier pour ignorer des dossiers/fichiers
 ├── package.json                 # Dépendances et scripts du projet
 └── README.md                    # Documentation du projet
-💡 Fonctionnalités clés détaillées
-Gestion des utilisateurs 🧑‍💻
-🔑 Inscription sécurisée et système de connexion : Les utilisateurs peuvent s’inscrire et se connecter avec des identifiants.
-👤 Mise à jour du profil utilisateur : Les patients peuvent mettre à jour leurs informations personnelles.
-🏠 Ajout d’adresses pour la livraison de médicaments : Les utilisateurs peuvent ajouter des adresses pour la livraison.
-Gestion des services médicaux 🏥
-🏷️ Organisation par spécialité ou type de service : Classement des services médicaux par catégories (médecine générale, tests de laboratoire, etc.).
-📸 Upload d'images pour les services et médicaments : Possibilité d'ajouter des images pour chaque service ou médicament.
-Système de commandes et de réservations 🛍️
-🛒 Réservation de consultations : Réservez des consultations en ligne avec des médecins.
-📦 Commande de médicaments : Ajoutez des médicaments au panier et gérez les paiements.
-🔄 Suivi des commandes et des rendez-vous : Visualisez l’état des commandes et des consultations réservées.
-Tableau de bord Administrateur 📊
-📈 Suivi des commandes, réservations et utilisateurs : L’administrateur peut suivre les statistiques concernant les commandes et consultations.
-👥 Gestion des utilisateurs : Ajouter, modifier ou supprimer des comptes d'utilisateurs.
-📊 Suivi des ventes et des commandes : Consultez des rapports sur les ventes de médicaments et les consultations réservées.
-🎨 Bootstrap pour un design responsive
-Avec Bootstrap 5, l'interface de MEDNEAR est responsive et professionnelle. Le projet utilise les classes Bootstrap pour faciliter la mise en page et garantir une bonne expérience utilisateur sur toutes les tailles d'écran.
+```
 
-🤝 Contributions
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou corriger ce projet, n’hésitez pas à soumettre une Pull Request.
+---
 
-📝 Note Importante
-Aucune licence n'est associée à ce projet.
-Utilisez-le à des fins d’apprentissage ou de développement personnel.
-👨‍💻 Auteur
-Mehdi Azou  | Abdelali Baali | Zakariae Ferrouhi  | Anas Bayaqour 
-📋 Suivi du projet sur JIRA
-Pour suivre l'avancement du projet, consulter les sprints, et voir les tâches à faire, vous pouvez accéder au tableau de bord JIRA via ce [https://enddorphins.atlassian.net/jira/software/projects/SCRUM/boards/1 ]
+### 💡 **Fonctionnalités clés détaillées**
 
+#### **Gestion des utilisateurs** 🧑‍💻
+- **🔑 Inscription sécurisée et système de connexion** : Les utilisateurs peuvent s’inscrire et se connecter avec des identifiants.
+- **👤 Mise à jour du profil utilisateur** : Les patients peuvent mettre à jour leurs informations personnelles.
+- **🏠 Ajout d’adresses pour la livraison de médicaments** : Les utilisateurs peuvent ajouter des adresses pour la livraison.
 
+#### **Gestion des services médicaux** 🏥
+- **🏷️ Organisation par spécialité ou type de service** : Classement des services médicaux par catégories (médecine générale, tests de laboratoire, etc.).
+- **📸 Upload d'images pour les services et médicaments** : Possibilité d'ajouter des images pour chaque service ou médicament.
 
+#### **Système de commandes et de réservations** 🛍️
+- **🛒 Réservation de consultations** : Réservez des consultations en ligne avec des médecins.
+- **📦 Commande de médicaments** : Ajoutez des médicaments au panier et gérez les paiements.
+- **🔄 Suivi des commandes et des rendez-vous** : Visualisez l’état des commandes et des consultations réservées.
+
+#### **Tableau de bord Administrateur** 📊
+- **📈 Suivi des commandes, réservations et utilisateurs** : L’administrateur peut suivre les statistiques concernant les commandes et consultations.
+- **👥 Gestion des utilisateurs** : Ajouter, modifier ou supprimer des comptes d'utilisateurs.
+- **📊 Suivi des ventes et des commandes** : Consultez des rapports sur les ventes de médicaments et les consultations réservées.
+
+---
+
+### 🎨 **Bootstrap pour un design responsive**
+
+Avec **Bootstrap 5**, l'interface de **MEDNEAR** est responsive et professionnelle. Le projet utilise les classes Bootstrap pour faciliter la mise en page et garantir une bonne expérience utilisateur sur toutes les tailles d'écran.
+
+---
+
+### 🤝 **Contributions**
+
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou corriger ce projet, n’hésitez pas à soumettre une **Pull Request**.
+
+---
+
+### 📝 **Note Importante**
+
+- Aucune licence n'est associée à ce projet.
+- Utilisez-le à des fins d’apprentissage ou de développement personnel.
+
+---
+
+### 👨‍💻 **Auteur**
+
+- **Ali Talebmoh** | **Youness Aghezzaf**
+
+---
+
+### 📋 **Suivi du projet sur JIRA**
+
+Pour suivre l'avancement du projet, consulter les sprints, et voir les tâches à faire, vous pouvez accéder au tableau de bord JIRA via ce [
+
+lien](https://enddorphins.atlassian.net/jira/software/projects/SCRUM/boards/1).
+
+---
+
+Cela fournit un cadre complet et bien structuré pour votre application, y compris l'intégration du lien JIRA pour la gestion des tâches et du projet !
