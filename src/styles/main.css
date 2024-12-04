@@ -1,3 +1,13 @@
+#m_{
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* تدرج لوني جميل */
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 25px; /* زر دائري قليلاً */
+  transition: all 0.3s ease;
+}
+
 /* Hero Image */
 .hero-image {
   position: relative;
@@ -41,42 +51,8 @@
   color: #007bff;
 }
 
-/* Navbar */
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(90deg, #1e90ff, #00c6ff);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
-  z-index: 1000;
-}
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff !important;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-}
 
-.nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-link {
-  color: #fff !important;
-  font-size: 1rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.nav-link:hover {
-  color: #ffeb3b !important;
-  transform: translateY(-2px);
-}
 
 .btn-outline-primary {
   border: 2px solid #fff;
@@ -100,17 +76,6 @@
 }
 
 /* Navbar Links */
-.navbar a {
-  color: #000;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.navbar a:hover {
-  background-color: #f0eeee;
-  color: black;
-}
 
 /* Body Background */
 .body {

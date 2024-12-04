@@ -10,7 +10,6 @@ import FeedbackSection from "./components/FeedbackSection"; // Assuming you have
 import MapPreview from "./components/MapPreview"; // Assuming you have MapPreview component
 import AboutUs from "./components/AboutUs"; // Assuming you have AboutUs component
 import myVideo from './myVideo.mp4'; 
-
 import "./styles/cards.css";
 import "./styles/main.css";
 
