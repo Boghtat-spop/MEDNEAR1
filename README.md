@@ -2,7 +2,7 @@ Bien sûr ! Voici la version mise à jour du projet **MEDNEAR**, incluant le lie
 
 ---
 
-## 🍏 **MEDNEAR: Système de Commande Médicale en Ligne** 🏥
+## 👩‍⚕️👨‍⚕️ **MEDNEAR: Système de Commande Médicale en Ligne** 🏥
 
 Un projet full-stack pour la gestion des services médicaux en ligne, permettant aux utilisateurs de réserver des consultations, acheter des médicaments, et aux administrateurs de gérer les utilisateurs et les services.
 
@@ -15,26 +15,19 @@ Un projet full-stack pour la gestion des services médicaux en ligne, permettant
 - **🔑 Inscription et authentification utilisateur**  
   - Créez un compte, connectez-vous et gérez vos informations personnelles.
 
-- **🍽️ Consultation des services médicaux**  
+- ** 🏥 Consultation des services médicaux**  
   - Parcourez les services médicaux disponibles (consultations, tests, médicaments, etc.).
 
 - **🔍 Recherche de services médicaux**  
   - Recherche par spécialité, médecin, ou type de service (ex. consultations en ligne, services de laboratoire).
 
-- **🛒 Gestion du panier**  
-  - Ajoutez des médicaments à votre panier ou réservez des consultations.
-
-- **🚚 Suivi des commandes et réservations**  
-  - Suivez vos commandes de médicaments et l’état de vos rendez-vous médicaux.
+- **🚚
 
 - **👤 Gestion du profil utilisateur**  
   - Mettez à jour vos informations personnelles et antécédents médicaux.
 
-- **🏠 Gestion des adresses de livraison**  
-  - Ajoutez ou modifiez vos adresses pour la livraison de médicaments.
-
-- **📜 Historique des commandes et consultations**  
-  - Visualisez l’historique de vos consultations passées et de vos achats de médicaments.
+- **📜 Historique des render-vous**  
+  - Visualisez l’historique de vos render-vous passées .
 
 ---
 
@@ -46,17 +39,14 @@ Un projet full-stack pour la gestion des services médicaux en ligne, permettant
 - **📝 Gestion des services médicaux**  
   - Ajoutez, modifiez ou supprimez des services médicaux (consultations, tests, examens, etc.).
 
-- **📦 Gestion des commandes**  
-  - Gérez les commandes de médicaments et les réservations de consultations.
+- **📦 Gestion des render vous**  
+  - Gérez les render vous .
 
 - **👥 Gestion des utilisateurs**  
   - Ajoutez, modifiez ou supprimez des comptes utilisateurs (patients, médecins, pharmaciens).
 
-- **📈 Suivi des ventes et des commandes**  
-  - Suivez les commandes de médicaments et les consultations médicales pour obtenir des statistiques.
-
 - **📩 Système de messagerie**  
-  - Communiquez avec les patients concernant leurs commandes et rendez-vous médicaux.
+  - Communiquez avec les patients concernant leurs feedback et rendez-vous médicaux.
 
 ---
 
@@ -111,6 +101,29 @@ Un projet full-stack pour la gestion des services médicaux en ligne, permettant
 
 - **Nom d'utilisateur**: `admin`
 - **Mot de passe**: `admin123`
+--- 
+### 📱 Screenshots ***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -161,7 +174,6 @@ mednear/
 #### **Gestion des utilisateurs** 🧑‍💻
 - **🔑 Inscription sécurisée et système de connexion** : Les utilisateurs peuvent s’inscrire et se connecter avec des identifiants.
 - **👤 Mise à jour du profil utilisateur** : Les patients peuvent mettre à jour leurs informations personnelles.
-- **🏠 Ajout d’adresses pour la livraison de médicaments** : Les utilisateurs peuvent ajouter des adresses pour la livraison.
 
 #### **Gestion des services médicaux** 🏥
 - **🏷️ Organisation par spécialité ou type de service** : Classement des services médicaux par catégories (médecine générale, tests de laboratoire, etc.).
@@ -169,14 +181,7 @@ mednear/
 
 #### **Système de commandes et de réservations** 🛍️
 - **🛒 Réservation de consultations** : Réservez des consultations en ligne avec des médecins.
-- **📦 Commande de médicaments** : Ajoutez des médicaments au panier et gérez les paiements.
-- **🔄 Suivi des commandes et des rendez-vous** : Visualisez l’état des commandes et des consultations réservées.
-
-#### **Tableau de bord Administrateur** 📊
-- **📈 Suivi des commandes, réservations et utilisateurs** : L’administrateur peut suivre les statistiques concernant les commandes et consultations.
-- **👥 Gestion des utilisateurs** : Ajouter, modifier ou supprimer des comptes d'utilisateurs.
-- **📊 Suivi des ventes et des commandes** : Consultez des rapports sur les ventes de médicaments et les consultations réservées.
-
+- **🔄 Suivi des rendez-vous** : Visualisez l’état de rendez vous et des consultations réservées.
 ---
 
 ### 🎨 **Bootstrap pour un design responsive**
@@ -191,16 +196,9 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou corriger
 
 ---
 
-### 📝 **Note Importante**
-
-- Aucune licence n'est associée à ce projet.
-- Utilisez-le à des fins d’apprentissage ou de développement personnel.
-
----
-
 ### 👨‍💻 **Auteur**
 
-- **Ali Talebmoh** | **Youness Aghezzaf**
+ Abdelali Baali  | Zakariae Ferrouhi | Mehdi Azou | Anas Bayaqour 
 
 ---
 
@@ -211,5 +209,3 @@ Pour suivre l'avancement du projet, consulter les sprints, et voir les tâches �
 lien](https://enddorphins.atlassian.net/jira/software/projects/SCRUM/boards/1).
 
 ---
-
-Cela fournit un cadre complet et bien structuré pour votre application, y compris l'intégration du lien JIRA pour la gestion des tâches et du projet !
