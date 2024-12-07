@@ -194,7 +194,7 @@ mednear/
 - **📸 Upload d'images pour les services et médicaments** : Possibilité d'ajouter des images pour chaque service ou médicament.
 
 #### **Système de commandes et de réservations** 🛍️
-- **🛒 Réservation de consultations** : Réservez des consultations en ligne avec des médecins.
+- **🤝Réservation de consultations** : Réservez des consultations en ligne avec des médecins.
 - **🔄 Suivi des rendez-vous** : Visualisez l’état de rendez vous et des consultations réservées.
 ---
 
